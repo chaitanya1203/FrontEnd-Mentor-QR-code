@@ -1,0 +1,49 @@
+.bg-container {
+    background-color:hsl(212, 45%, 89%);
+    height: 100vh;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 350px;
+    width: 15%;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.qrcode{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-qr-code{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.heading{
+    font-size: 15px;
+    text-align: center;
+    font-family: "Roboto";
+    margin: 15px;
+    font-weight: 400,700;
+    color: hsl(218, 44%, 22%);
+}
+
+.discription {
+    font-size: 11px;
+    text-align: center;
+    font-family: Regular 400;
+    margin: 15px;
+    font-weight: bold;
+    color:hsl(220, 15%, 55%);
+}
